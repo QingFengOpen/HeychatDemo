@@ -16,7 +16,7 @@ type Domain struct {
 }
 
 const (
-	RepeaterCommandID = "1830851200470908928"
+	RepeaterCommandID = "9527"
 )
 
 func New(token string) *Domain {

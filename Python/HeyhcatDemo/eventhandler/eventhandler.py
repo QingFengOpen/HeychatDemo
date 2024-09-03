@@ -2,7 +2,7 @@ import common.common
 import conf.command as command
 import conf.model as model
 
-RepeaterCommandID = "1830851200470908928"
+RepeaterCommandID = "9527"
 
 
 def on_use_bot_command(data):
