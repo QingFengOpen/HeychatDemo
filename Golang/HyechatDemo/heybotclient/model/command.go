@@ -4,11 +4,13 @@ const (
 	TypeSubCommand      int = 1
 	TypeSubCommandGroup int = 2
 	TypeString          int = 3
-	TypeInteger         int = 4
+	TypeNumber          int = 4
 	TypeBoolean         int = 5
 	TypeUser            int = 6
 	TypeChannel         int = 7
 	TypeRole            int = 8
+	TypeSelect          int = 9
+	TypeInteger         int = 10
 )
 
 type ChannelBaseInfo struct {
