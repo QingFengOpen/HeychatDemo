@@ -67,7 +67,7 @@ class WebSocketClient:
         context.check_hostname = False
         context.verify_mode = ssl.CERT_NONE
         try:
-            self.conn = await websockets.connect(uri, ssl=context, extra_headers=get_headers())
+            self.conn = await websockets.connect(uri, ssl=context, additional_headers=get_headers())
             self.is_connected = True
             self.logger.info("Connected to the server.")
             self.ctx = asyncio.get_running_loop()
